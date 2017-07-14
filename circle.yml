@@ -3,4 +3,4 @@ dependencies:
     - pip install requests
 test:
   override:
-    - phpunit test/unit-tests  
+    - python test00.py 
