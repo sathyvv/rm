@@ -1,3 +1,6 @@
 dependencies:
   pre:
     - pip install requests
+test:
+  override:
+    - phpunit test/unit-tests  
